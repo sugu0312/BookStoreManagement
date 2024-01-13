@@ -19,5 +19,6 @@
 - Spring Data JPA
 - Thymeleaf
 
-# ![dependecies](https://github.com/sugu0312/BookStoreManagement/assets/139035083/336a38ab-de8b-4a08-987c-4a588aa4f339)
+# ![dependecies](https://github.com/sugu0312/BookStoreManagement/assets/139035083/5df6cfb7-d60a-4566-82bf-88f1c846a1e4)
+
 
