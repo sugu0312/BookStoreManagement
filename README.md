@@ -1,5 +1,5 @@
 # **BookStoreManagement**
-+ Simple Spring Boot Project | Book Store Management | MySql | Thymeleaf | JPA
+-The aim of the project is to perform the basic CRUD operations.
 
 - Spring initializer war used to create a spring boot application project.
 
