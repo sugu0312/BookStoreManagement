@@ -1,6 +1,5 @@
 # **BookStoreManagement**
--The aim of the project is to perform the basic CRUD operations.
-
+- The aim of the project is to perform the basic CRUD operations.
 - Spring initializer war used to create a spring boot application project.
 
 # ![spring io](https://github.com/sugu0312/BookStoreManagement/assets/139035083/7da20146-b2ab-4b98-993c-57421efed1b4)
@@ -8,7 +7,6 @@
 # Frameworks and Languages used :
 
 + Java
-
 - Spring Boot
 
 # Dependency Used : 
