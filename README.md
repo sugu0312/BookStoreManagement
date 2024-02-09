@@ -47,5 +47,9 @@
 # ![add book](https://github.com/sugu0312/BookStoreManagement/assets/139035083/d87df00b-7742-487e-9827-a2dbe8d2c7cc)
 
 ## Get All Book
-> ```available_books```
-# 
+> ```http://localhost:8080/available_books```
+# ![getll all books](https://github.com/sugu0312/BookStoreManagement/assets/139035083/8424b4e6-15ac-4508-8f28-bb4489bc8f0f)
+
+## Update Book by ID
+> ```http://localhost:8080//editBook/{id}```
+# ![edit book](https://github.com/sugu0312/BookStoreManagement/assets/139035083/6b7fc6c3-db07-4ac0-bddd-505a334b5197)
