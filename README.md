@@ -56,7 +56,8 @@
 
 ## Get Book By ID
 > ```http://localhost:8080/mylist/{id}```
-# ![get by id](https://github.com/sugu0312/BookStoreManagement/assets/139035083/8335ec66-a02e-4252-8300-0d2bc7e1ba26)
+# ![getbyID](https://github.com/sugu0312/BookStoreManagement/assets/139035083/fafc4880-21f7-4e8e-9c36-e839cde6c9d3)
+
 
 ## Delete Book
 > ```http://localhost:8080/deleteMyList/{id}```
