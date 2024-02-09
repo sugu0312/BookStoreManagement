@@ -56,11 +56,8 @@
 
 ## Get Book By ID
 > ```http://localhost:8080/mylist/{id}```
+# ![get by id](https://github.com/sugu0312/BookStoreManagement/assets/139035083/8335ec66-a02e-4252-8300-0d2bc7e1ba26)
 
-	``` @GetMapping("/mylist/{id}")
-	public String getMyList(@PathVariable ("id") int id) {
-		BookStore b=bookservice.getBookById(id);
-		MyBookList mb=new MyBookList(b.getId(), b.getName(), b.getAuthor(), b.getPrice());
-		booklistservice.saveMyBook(mb);
-		return "redirect:/my_books";
-	} ```
+## Delete Book
+> ```http://localhost:8080/deleteMyList/{id}```
+# ![deletebook](https://github.com/sugu0312/BookStoreManagement/assets/139035083/cc2ac053-8127-4b5a-8900-aeda77da5b75)
