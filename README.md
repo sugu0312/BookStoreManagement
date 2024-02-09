@@ -50,6 +50,17 @@
 > ```http://localhost:8080/available_books```
 # ![getll all books](https://github.com/sugu0312/BookStoreManagement/assets/139035083/8424b4e6-15ac-4508-8f28-bb4489bc8f0f)
 
-## Update Book by ID
-> ```http://localhost:8080//editBook/{id}```
+## Update Book
+> ```http://localhost:8080/editBook/{id}```
 # ![edit book](https://github.com/sugu0312/BookStoreManagement/assets/139035083/6b7fc6c3-db07-4ac0-bddd-505a334b5197)
+
+## Get Book By ID
+> ```http://localhost:8080/mylist/{id}```
+
+```@GetMapping("/mylist/{id}")
+	public String getMyList(@PathVariable ("id") int id) {
+		BookStore b=bookservice.getBookById(id);
+		MyBookList mb=new MyBookList(b.getId(), b.getName(), b.getAuthor(), b.getPrice());
+		booklistservice.saveMyBook(mb);
+		return "redirect:/my_books";
+	}```
