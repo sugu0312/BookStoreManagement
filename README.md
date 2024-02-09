@@ -40,3 +40,8 @@
 - It consists of a User class which consists of Entity's used to model our data application.
 - For each of our data , constructors , getters and setters are created.
 # ![Entity](https://github.com/sugu0312/BookStoreManagement/assets/139035083/e912987f-500b-48c3-bf39-a142659c6123)
+
+# API Reference 
+# `Add book
+# ![add book](https://github.com/sugu0312/BookStoreManagement/assets/139035083/d87df00b-7742-487e-9827-a2dbe8d2c7cc)
+
