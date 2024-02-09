@@ -43,6 +43,6 @@
 
 # API Reference 
 ## Add book
-# > http://localhost:8080/book_register
+#> http://localhost:8080/book_register
 # ![add book](https://github.com/sugu0312/BookStoreManagement/assets/139035083/d87df00b-7742-487e-9827-a2dbe8d2c7cc)
 
