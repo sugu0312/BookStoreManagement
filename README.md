@@ -57,10 +57,10 @@
 ## Get Book By ID
 > ```http://localhost:8080/mylist/{id}```
 
-```@GetMapping("/mylist/{id}")
+	``` @GetMapping("/mylist/{id}")
 	public String getMyList(@PathVariable ("id") int id) {
 		BookStore b=bookservice.getBookById(id);
 		MyBookList mb=new MyBookList(b.getId(), b.getName(), b.getAuthor(), b.getPrice());
 		booklistservice.saveMyBook(mb);
 		return "redirect:/my_books";
-	}```
+	} ```
